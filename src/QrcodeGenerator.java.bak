@@ -99,9 +99,9 @@ public class QrcodeGenerator extends javax.swing.JFrame implements Runnable{
         {
             try {
                   JavaGetRequest jgr=new JavaGetRequest();
-                  boolean value=jgr.func();
+                  boolean vslue=jgr.func();
                   //System.out.println(vslue);
-                  if(value)
+                  if(vslue)
                   {
                       
                       otp=(int)(Math.random()*100000);

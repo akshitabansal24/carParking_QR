@@ -19,7 +19,7 @@ public class JavaPostRequest{
     public static void Function() throws MalformedURLException,
             ProtocolException, IOException {
 
-        String url = "http://192.168.29.161/carParking/insertotp.php";
+        String url = "https://carparkingakshita.000webhostapp.com/insertotp.php";
         String urlParameters = "otp="+otp;
         byte[] postData = urlParameters.getBytes(StandardCharsets.UTF_8);
 

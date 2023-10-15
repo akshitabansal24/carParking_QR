@@ -11,7 +11,7 @@ public class JavaGetRequest {
     public static boolean func() throws MalformedURLException,
             ProtocolException, IOException {
 
-        String url = "http://automaticcarparking.000webhostapp.com/getunsed.php";
+        String url = "https://carparkingakshita.000webhostapp.com/getunused.php";
 
         try {
 
